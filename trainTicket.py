@@ -47,8 +47,3 @@ browser.find_element_by_xpath('//*[@id="pay-submit"]').click()
 #quit
 time.sleep(180)
 browser.quit()
-
-
-
-
-
