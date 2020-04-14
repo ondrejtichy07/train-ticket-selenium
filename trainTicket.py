@@ -24,7 +24,7 @@ browser.find_element_by_xpath('//*[@id="main"]/section/div[1]/div/button').click
 time.sleep(1.5)
 
 #fifth screen cd.cz
-browser.find_element_by_id('cardName').send_keys('Ondřej Tichý')
+browser.find_element_by_id('cardName').send_keys(s.full_name)
 browser.find_element_by_xpath('//*[@id="main"]/section/div[1]/form/div[2]/ul/li/input').send_keys(s.phone_num)
 browser.find_element_by_xpath('//*[@id="main"]/section/div[1]/button').click()
 time.sleep(1.5)
